@@ -1,0 +1,66 @@
+body {
+    background-color: rgba(240, 230, 140, 0.521);
+}
+a {
+    color:maroon;
+}
+a.about {
+    float: right;
+    padding: 20px;
+}
+a.contact {
+    float: right;
+    padding: 20px;
+}
+a.portfolio  {
+    float: right;
+    padding: 20px;
+}
+header {
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+#name {
+    background: darkolivegreen;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    color: antiquewhite;
+}
+
+#aboutMe {
+    width: 40%;
+    height: 100px;
+    /*padding: 20px;*/
+    margin-left: 250px;
+    border-top: 1px solid maroon;
+    border-left: 1px solid maroon;
+    border-right: 1px solid maroon;
+    background-color: white;
+    
+}
+#about {
+    color: darkolivegreen;
+    padding-top: 15px;
+}
+#hippie {
+    float: left;
+    padding: 15px;
+   
+}
+#bio{
+    font-size: 15px;
+    padding: 10px;
+    
+}
+
+footer {
+    /*position: relative;
+    bottom: 0%;*/
+    width: 100%;
+    padding: 20px;
+    background: darkolivegreen;
+    text-align: center;
+    clear: both;
+  }

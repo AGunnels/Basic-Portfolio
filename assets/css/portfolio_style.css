@@ -1,0 +1,195 @@
+body {
+    background-color: rgba(240, 230, 140, 0.521);
+}
+h3{
+    color: darkolivegreen;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+a {
+    color:maroon;
+}
+a.about {
+    float: right;
+    padding: 20px;
+}
+a.contact {
+    float: right;
+    padding: 20px;
+}
+a.portfolio  {
+    float: right;
+    padding: 20px;
+}
+header {
+    padding: 20px;
+    margin-bottom: 0px;
+    border-bottom: solid darkslategray;
+    
+}
+#name {
+    background: darkolivegreen;
+    width: 16%;
+    padding: 5px;
+    margin-left: 100px;
+    color: antiquewhite;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+#port_header{
+    color: darkolivegreen;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* #portfolio {
+   
+} */
+#images{
+    float: left;
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 0;
+    background-color: white;
+
+}
+#computer{
+    width: 300px;
+    height:225px;
+}
+#guitar{
+    width: 300px;
+    height:225px;
+}
+#softball{
+    width: 300px;
+    height:225px;
+}
+#cooking{
+    width: 300px;
+    height:225px;
+}
+#canoe{
+    width: 300px;
+    height:225px;
+}
+#connect{
+    float:right;
+    width: 15%;
+    background-color: white;
+    text-align: center;
+    margin-right: 100px;
+}
+#git{
+    width: 70px;
+    height:70px;
+}
+#in{
+        width: 70px;
+        height:70px;
+    }
+#stack{
+    width: 70px;
+    height:70px;
+}
+footer {
+    position: relative;
+    bottom: 0%;
+    border-top: solid darkslategray;
+    width: 100%;
+    padding: 20px;
+    background: darkolivegreen;
+    text-align: center;
+    clear: both;
+  }
+
+
+ .container1 {
+     float: left;
+    height: 225px;
+    width: 300px;
+    position: relative;
+  }
+
+  #text1 {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+     left: 50px;
+    top: 150px; 
+  }
+  #computer{
+      height: 100%;
+      width: 100%;
+  }
+  .container2 {
+    height: 225px;
+    width: 300px;
+    position: relative;
+  }
+
+  #text2 {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+     left: 50px;
+    top: 150px; 
+  }
+  #softball{
+      height: 100%;
+      width: 100%;
+
+  } .container3 {
+    height: 225px;
+    width: 300px;
+    position: relative;
+  }
+
+  #text3 {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+     left: 50px;
+    top: 150px; 
+  }
+  #test{
+      height: 100%;
+      width: 100%;
+  } 
+  
+  .container4 {
+    height: 225px;
+    width: 300px;
+    position: relative;
+  }
+
+  #text4 {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+     left: 50px;
+    top: 150px; 
+  }
+  #test{
+      height: 100%;
+      width: 100%;
+  } 
+  .container5 {
+    height: 225px;
+    width: 300px;
+    position: relative;
+  }
+
+  #text5 {
+    position: absolute;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+     left: 50px;
+    top: 150px; 
+  }
+  #test{
+      height: 100%;
+      width: 100%;
+  }
