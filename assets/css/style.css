@@ -1,6 +1,17 @@
- {
+* {
     box-sizing: border-box;
     text-decoration: none;
+}
+
+.container {
+	margin: auto;
+	position: relative;
+	max-width: 960px;
+	height: 800px;
+}
+
+.row {
+	width: 100%;
 }
 
 .row::after {
@@ -40,9 +51,6 @@ a:hover {
 }
 
 body {
-	position: relative;
-	max-width: 960px;
-	height: 800px;
 	background-image: url("../images/concrete-texture.png");
 	margin: auto;
 }
@@ -285,28 +293,14 @@ body {
 	background-color: #3a8783;
 }
 
-@media screen and (min-width: 640px){
+@media screen and (max-width: 640px){
     .col-4 {
+		float: none;
 		width: 100%;
     }
     .col-8 {
-        width: 100%;
-    }
-}
-@media screen and (min-width: 768px){
-    .col-4 {
+		float: none;
 		width: 100%;
-    }
-    .col-8 {
-        width: 100%;
-    }
-}
-@media screen and (min-width: 980px){
-    .col-4 {
-		width: 100%;
-    }
-    .col-8 {
-        width: 100%;
     }
 }
 

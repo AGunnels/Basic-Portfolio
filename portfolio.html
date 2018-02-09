@@ -1,71 +1,76 @@
-
 <!DOCTYPE html>
-<html lang ="en-us">
+
+<html lang="en”>
 <head>
-    <meta charset="UTF8">
-    <link rel="stylesheet" type="text/css" href="assets/css/portfolio_style.css">
-        <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Basic Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
 <body>
-        <div>
-                <header>
-                <a class="about" href="about.html">About</a>
-                <a class="contact" href="contact.html">Contact</a>
-                <a class="portfolio" href="portfolio.html">Portfolio</a>
+<div class="row" id="header">
+    <div class="col-4" id="brand">
+        <h1>Amanda Gunnels</h1>
+    </div>
+    <div class="col-8" id="nav">
+        <a href="index.html"><span>About</span></a>
+        <span>|</span>
+        <a href="contact.html"><span>Contact</span></a>
+        <span>|</span>
+        <a href="portfolio.html"><span>Portfolio</span></a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-8">   
+        <div id="portfolio">
+            <h2>Portfolio</h2>
+            <hr>
                 
-                <div>
-                    <h1 id="name">Amanda Gunnels</h1>
-            
-                </header>  
-               </div>
-               </div>
-
-        <section>
-   <div id="portfolio">
-        <h1 id="port_header">Portfolio</h1>
-   
-
-        
-            <div id="images">
-                <div class="container1">
-                  <img id="computer" src="assets/images/Computers.jpg" alt="ComputerInterest" > 
-                  <p id="text1">COMPUTERS</p>
-                </div>
-                <div class="container1">
-                  <img id="softball" src="assets/images/SoftballSlap.JPG" alt="SoftballInterest" >
-                  <p id="text2">SOFTBALL</p>
-                </div>
-                  <div class="container1">
-                  <img id="guitar" src="assets/images/Guitar.JPG" alt="GuitarInterest">
-                  <p id="text3">GUITAR</p>
-                </div>
-                  <div class="container1">
-                  <img id="cooking" src="assets/images/Cooking.JPG" alt="CookingInterest">
-                  <p id="text4">COOKING</p>
-                </div>
-                  <div class="container1">
-                  <img id="canoe"src="assets/images/CanoeTrip.JPG" alt="CanoeInterest">
-                  <p id="text5">CANOE</p>
-                </div>
-            </div>
-
-                <div id="connect">
-                        <h3>Connect With Me</h3>
-                    <div>
-                        <img id="git" src="assets/images/github.png" alt="github">
-                        <img id="in" src="assets/images/in.png" alt="github">
-                        <img id="stack" src="assets/images/stack.png" alt="github">
-                    </div>
-                </div>
-   </div>
-   
-                
-            </section>
-
-          
-
-            <footer> © Copyright Amanda Gunnels 2018</footer>
-
+            <ul>
+                <li>
+                    <a href="#"><img src="assets/images/computers.jpg" height="110px"/> 
+                    <div class="portLabel">COMPUTERS</div>   
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/images/guitar.jpg" height="110px"/> 
+                    <div class="portLabel">GUITAR</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/images/cooking.jpg" height="110px"/> 
+                    <div class="portLabel">COOKING</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/images/softballslap.jpg" height="110px"/> 
+                    <div class="portLabel">SOFTBALL</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/images/canoetrip.jpg" height="110px"/> 
+                    <div class="portLabel">CANOEING</div>
+                    </a>
+                </li>
+            </ul>     
+              
+        </div>
+    </div>
+    <div class="col-4">
+        <div id="connect">
+            <h3>Connect with Me</h3>
+            <hr>
+            <a href="https://github.com" target="_blank"><img src="assets/images/github.png" height="51px"/></a>
+            <a href="https://www.linkedin.com" target="_blank"><img src="assets/images/in.png" height="51px"/></a>
+            <a href="https://stackoverflow.com" target="_blank"><img src="assets/images/stack.png" height="51px"/></a>
+        </div>
+    </div> 
+</div>
+<div class="row">
+    <div class="col-12" id="footer">
+        <p>&copy Copyright 2018 Amanda Gunnels</p>
+    </div> 
+ </div>     
 </body>
 </html>
